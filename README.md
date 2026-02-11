@@ -28,7 +28,7 @@ std::vector<std::pair<unsigned long long, unsigned long long>> get_focus_fire_ta
 }
 ```
 
-##📦 Installation & Usage
+## 📦 Installation & Usage
 Requirements:
 
 Python 3.10+
@@ -39,7 +39,7 @@ Ollama (for Live Brain mode)
 
 C++ Compiler (MSVC or GCC)
 
-##Build the C++ Module:
+## Build the C++ Module:
 
 Bash
 pip install . 
@@ -48,7 +48,7 @@ Run the Agent:
 
 Bash
 python Ares_Agent.py
-##📈 Performance
+## 📈 Performance
 Average APM: ~2,000 (Micro bursts)
 
 Decision Latency: <10ms (Combat), ~2s (LLM Strategy)
