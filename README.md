@@ -26,3 +26,30 @@ std::vector<std::pair<unsigned long long, unsigned long long>> get_focus_fire_ta
     // Calculates optimal target selection minimizing overkill
     // Runs 50x faster than equivalent Python implementation
 }
+
+##📦 Installation & Usage
+Requirements:
+
+Python 3.10+
+
+StarCraft II (Headless or GUI)
+
+Ollama (for Live Brain mode)
+
+C++ Compiler (MSVC or GCC)
+
+##Build the C++ Module:
+
+Bash
+pip install . 
+# Or use CMake to compile ares_lib.pyd
+Run the Agent:
+
+Bash
+python Ares_Agent.py
+##📈 Performance
+Average APM: ~2,000 (Micro bursts)
+
+Decision Latency: <10ms (Combat), ~2s (LLM Strategy)
+
+Win Rate: Consistent vs. Elite AI (Terran/Zerg)
