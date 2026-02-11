@@ -25,7 +25,7 @@ To overcome Python's GIL limitations during combat, unit control is offloaded to
 std::vector<std::pair<unsigned long long, unsigned long long>> get_focus_fire_targets(...) {
     // Calculates optimal target selection minimizing overkill
     // Runs 50x faster than equivalent Python implementation
-}
+}```
 
 ##📦 Installation & Usage
 Requirements:
